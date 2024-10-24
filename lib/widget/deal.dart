@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Deal extends StatelessWidget {
   const Deal({super.key});
@@ -22,12 +21,12 @@ class Deal extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Todays Deal',
-                    style: GoogleFonts.hind()
-                        .copyWith(fontWeight: FontWeight.w700, fontSize: 16)),
-                Text(
+                const Text('Todays Deal',
+                    style:
+                        TextStyle(fontWeight: FontWeight.w700, fontSize: 16)),
+                const Text(
                   '50% OFF',
-                  style: GoogleFonts.hind().copyWith(
+                  style: TextStyle(
                     fontWeight: FontWeight.w700,
                     fontSize: 28,
                   ),

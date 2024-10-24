@@ -5,6 +5,8 @@ class CustomSearchBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isDarkMode =
+        MediaQuery.of(context).platformBrightness == Brightness.dark;
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
@@ -44,10 +46,10 @@ class CustomSearchBar extends StatelessWidget {
             ),
           ),
           padding: const EdgeInsets.all(8),
-          child: const Image(
-            image: AssetImage('assets/images/icons/sort.png'),
+          child: Image(
+            image: const AssetImage('assets/images/icons/sort.png'),
             fit: BoxFit.fitHeight,
-            color: Colors.white,
+            color: isDarkMode ? Colors.white : Colors.black,
           ),
         )
       ],

@@ -18,3 +18,15 @@ final imageBackgrounds = [
   'assets/images/backgrounds/image 7.png',
   'assets/images/backgrounds/image 8.png'
 ];
+
+final imageIcons = [
+  'assets/images/icons/blog-pencil 1.png',
+  'assets/images/icons/chat.png',
+  'assets/images/icons/logo.png',
+  'assets/images/icons/menu-burger (1) 1.png',
+  'assets/images/icons/menu-burger 1.jpg',
+  'assets/images/icons/notification-bing.png',
+  'assets/images/icons/shopping-cart.png',
+  'assets/images/icons/sort.png',
+  'assets/images/icons/star.png',
+];
